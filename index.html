@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Picross Solver</title>
+</head>
+<body>
+<section>
+Insert the box array:
+<div id="arraysize" contenteditable = true><div>
+Insert the sequence:
+<div>
+<b>[</b><i id="sequence" contenteditable = true><i><b>]</b>
+</div>
+<button type="button" onClick="CalculateSequences()">Calculate</button>
+</section>
+<section>
+Possible sequences:
+<ul id="possible sequence">
+<li><li>
+<ul>
+</section>
+</body>
+<script>
+function CalculateSequences()
+{
+   var arraysize = body.getElementById("arraysize");
+   console.log(arraysize.innerHTML);
+   var el = body.getElementById("sequence");
+   console.log(sequence.innerHTML);
+}
+</script>
+</html>
